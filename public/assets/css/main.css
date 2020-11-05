@@ -706,14 +706,17 @@ input, select, textarea {
 
 
 /* IVAN: I added a different image for Intro */
+		
 
 		.image-intro {
+
 			display: block;
 			margin: 2.5rem 0;
 			width: 100%;
 		}
 	
 				.image-intro img {
+
 					width: 100%;
 					border: 1px solid whitesmoke;
 					border-radius: 9px;
