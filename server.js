@@ -5,7 +5,16 @@ const app = express();
 app.set('view engine', 'ejs');
 
 app.get('/', function(request, response) {
-  response.render('index', {data: {title: "Anything"}});
+  response.render('index', 
+  {
+    title: "Powder",
+    links: {
+      intro: "Intro",
+      work: "Work",
+      about: "About",
+      contact: "Contact"
+    }
+  });
 })
 
 app.use('/', express.static(path.join(__dirname, '/public')));
